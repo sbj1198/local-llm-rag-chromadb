@@ -1,0 +1,7 @@
+langchain_community
+bs4
+langchain-ollama
+urllib3
+pypdf
+chromadb
+python-dotenv
