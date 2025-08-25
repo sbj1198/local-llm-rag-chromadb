@@ -25,20 +25,6 @@ With this setup, you can load your documents, embed them, and query them with a 
 
 ---
 
-## 📂 Project Structure
-
-rag-app/
-│── load_data.py      # Loads documents into ChromaDB with embeddings
-│── rag_chain.py      # Interactive Q&A chain using retriever + LLM
-│── requirements.txt  # Python dependencies
-│── .env              # Configurations (models, db path, etc.)
-│── chroma_data/      # Persistent vector DB (auto-created)
-│── vector_search.py  # This script is a utility to directly test the Chroma vector database
-│── README.md  
-│── .gitignore  
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repo
